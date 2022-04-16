@@ -1,9 +1,19 @@
 {
-  "name": "angular",
-  "version": "1.7.5",
+  "name": "calctest1",
+  "description": "calculater,advancecalculator",
+  "main": "",
   "license": "MIT",
-  "main": "./angular.js",
-  "ignore": [],
+  "homepage": "index.html",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
   "dependencies": {
+    "angular": "angularjs#^1.7.5",
+    "bootstrap": "^4.1.3",
+    "angular-route": "^1.7.5"
   }
 }
